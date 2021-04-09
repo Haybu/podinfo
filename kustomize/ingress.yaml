@@ -8,7 +8,7 @@ spec:
     fqdn: contour.local
   routes:
     - conditions:
-      - prefix: /podinfo
+      - path: /podinfo
       services:
         - name: podinfo
           port: 9898                                 
