@@ -4,7 +4,7 @@ metadata:
   name: prodinfo-ingress
   namespace: default
 spec:
-  ingressClassName: ambassador
+  ingressClassName: contour
   rules:
     - http:
         paths:
