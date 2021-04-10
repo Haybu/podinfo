@@ -5,7 +5,8 @@ metadata:
   namespace: default
 spec:
   rules:
-    - http:
+    - host: localhost
+      http:
         paths:
           - path: /podinfo
             pathType: Prefix
